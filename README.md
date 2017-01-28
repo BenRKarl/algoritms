@@ -1,6 +1,6 @@
 # Algorithms
 
-Just some practice on common algorithms in various languages.
+Implementations of common algorithms in JavaScript. Following along with Coursera's [Algorithms, Part 1](https://www.coursera.org/learn/algorithms-part1/home/welcome) by Princeton University.
 
 ## Notes:
 

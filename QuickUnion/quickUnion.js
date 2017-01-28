@@ -28,7 +28,10 @@ class QuickUnion {
   // connects p with the value of "q" instead of its index
   // so that the union needs to be made once instead of N times.
   union(p, q) {
-    this._map[p] = q;
+    const pRoot = this._findRoot(p);
+    const qRoot = this._findRoot(q);
+
+    this._map[pRoot] = qRoot;
   }
 
   // two values are connected if their root is that same.

@@ -6,6 +6,8 @@ Implementations of common algorithms in JavaScript. Following along with Courser
 
 1. N operations on N objects takes quadtratic time, which is much too slow. We can't accept quadratic time to solve large problems.
 
+2. QuickUnion with union method that puts smaller trees under larger trees guarantees that the depth of any individual tree will not be larger than log base-2 of N.
+
 ### Quick Find
 
 1. `quickFind.js` is too slow for large problems because it uses quadratic time.
